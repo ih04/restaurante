@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="js/bootstrap.bundle.js">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<style>
+		body{background: #FCF8F7;}
+
+		.transparente{
+			background: none;
+		}
+
+		.logo{
+			width: 40%;
+		}
+
+
+		.rosado{
+			background: #F6D0AD;
+			border: none;
+			
+		}
+
+		.rosado:hover{
+			/*colores para combinar*/
+			/*FFEAD6,FFE1C5,CC9C6F,E1B68D*/
+			/*background: #FFEAD6;*/
+			background: #FFEAD6;
+			border: none;
+			
+		}
+		.rosado:active{
+			background: ;
+			border: none;
+		}
+		.boton{
+			background: #FFEAD6;
+			color: black;
+			border: none;
+		}
+		.boton:hover{
+			background: #FFEAD6;
+			color: black;
+		}
+		.cards{
+			border-radius: 10px;
+		}
+
+		.formu{
+			background: #F6D0AD;
+			width: 40%;
+			min-width: 300px;
+			margin: 2%;
+			padding: 2%;
+			border-radius: 6px;
+			border-top: solid  #F6D0AD 0.3px;
+			border-left: solid  #F6D0AD 0.3px;
+			margin-right: auto;
+			margin-left: auto;
+			box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+		}
+
+		.formu input{
+			background: white; 
+			border: solid #CC9C6F 1px;
+		}
+		.formu textarea{background: white; border: solid #CC9C6F 1px;}
+
+		.centrar{
+			margin-right: auto;
+			margin-left: auto;
+			align-content: center;
+			text-align: center;
+			border: none;
+		}
+		.margen{
+			background: rgb(226, 225, 225);
+		    width: 80%;
+		    margin-left: auto;
+		    margin-right: auto;
+			padding: 3%;
+		}
+		.texto{
+				text-align: center;
+				font-family: 'Times New Roman', Times, serif;
+				color: rgb(92, 92, 92);
+				font-size: 40px;
+				padding-top: 15%;
+		}
+		.texto2{
+				text-align: center;
+				font-family: 'Times New Roman', Times, serif;
+				color: rgb(92, 92, 92);
+				font-size: 20px;
+				
+		}
+		.crd{
+				width: 110%;
+		}
+
+		.redes{
+				
+				color: #F6D0AD;
+				font-size: 1.5em;
+		}
+
+		.redes a{padding: 5px; }
+		h1{
+    				text-align: center;
+   	 			font-family: cambria;  
+    				color: #F6CFAC;
+		}
+		a{
+			color: #CC9C6F;
+		}
+		a:link {
+		  color: #CC9C6F;
+		}
+		a:visited {
+		  color: #CC9C6F;
+		}
+		a:active {
+		  color: #CC9C6F;
+		}
+
+	</style>
+	<title>Document</title>
+</head>
+<body>
+	
+	<div class="container-fluid  p-5 ">
+		<div class="row text-center">
+			<div class="col-12 col-md-6">
+				<img class="logo" src="imagenes/Logomrfittransparente.png" alt="">
+			</div>
+			<div class="col-12 col-md-6">
+				<div class="accordion" id="accordionExample">
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingOne">
+				      <button class="accordion-button collapsed rosado" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				        <b >Variedad de menús</b>
+				      </button>
+				    </h2>
+				    <div id="collapseOne" class="accordion-collapse collapse show " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+				      <div class="accordion-body">
+				        <strong>Tenemos una amplia variedad de menús</strong> para que tengas donde elegir. Ensaladas, cremas, sopas, carne de tofu, pescado, y mucho más...
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingTwo">
+				      <button class="accordion-button collapsed rosado" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				        <b>Nuestros locales</b>
+				      </button>
+				    </h2>
+				    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+				      <div class="accordion-body">
+				        <strong>Disfrutarás de un ambiente</strong>  cálido y cercano, de un trato personalizado y podrás pasar una agradable velada con amigos y familia
+				      </div>
+				    </div>
+				  </div>
+				  <div class="accordion-item">
+				    <h2 class="accordion-header" id="headingThree">
+				      <button class="accordion-button collapsed rosado" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				        <b>Pasaporte covid</b>
+				      </button>
+				    </h2>
+				    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+				      <div class="accordion-body">
+				        <strong>No puede faltar</strong> Cumplimos estrictamente todos los protocolos de seguridad, para proteger a nuestros clientes y empleados y reducir la transmision del SARS-cov 2.
+
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	
+	<!-- carrousel -->
+	<div id="micarousel" class="carousel  slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#micarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#micarousel" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#micarousel" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+		</div>
+       <div class="carousel-inner">
+   		  <div class="carousel-item active">
+             <img src="imagenes/restaurante.jpg" class="im d-block w-100 h-100" alt="...">
+             <div class="carousel-caption d-none d-md-block">
+             	<h5></h5>
+             </div>
+          </div>
+          <div class="carousel-item">
+	   		   <img src="imagenes/restaurante5.jpg" class="im d-block w-100" alt="...">
+	   		   <div class="carousel-caption d-none d-md-block">
+	   		   	<h5></h5>
+	   		   </div>
+	      </div>
+	      <div class="carousel-item">
+	           <img src="imagenes/restaurante7.jpg" class="im d-block w-100" alt="...">
+	           <div class="carousel-caption d-none d-md-block">
+	           	<h5></h5>
+	           </div>
+	      </div>
+  	   </div>
+  	    <button class="carousel-control-prev" type="button" data-bs-target="#micarousel" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+	    </button>
+   	    <button class="carousel-control-next" type="button" data-bs-target="#micarousel" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		</button>
+    </div>
+
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+
+<!-- <div class="container mt-5 mb-5">
+	<h1>CUANDO COMER BIEN ES UN PLACER</h1>
+</div>
+<div class="margen">
+<div class="container rosado ">
+<div class="row ">
+	
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-1 order-sm-0"><img src="./imagenes/cocinero.jpg" class="img-fluid"alt=""></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0  order-2 "><h2 class="texto">Nuestra carta</h1 ><p class="texto2">El objetivo de nuestros restaurantes es dar un producto de calidad siempre en cartas variadas, trabajadas y en constante cambio</p></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-4 "><h2 class="texto">Menu variado</h1 ><p class="texto2">Contamos con una variedad de platos amplia,con platos internacionales y también con platos tipicos de la región</p></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-3 "><img src="./imagenes/comida3.jpg" class="img-fluid"alt=""></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-5 order-sm-3"><img src="./imagenes/comida.jpg" class="img-fluid"alt=""></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-6 "><h2 class="texto">Productos ecologicos</h1 ><p class="texto2">Todos nustros productos tienen el certificado eco, para cuidar nuestra salud,la salud del planeta y la sostenibilidad </p></div>
+
+
+	
+	
+
+</div>
+</div>
+</div> -->
+
+<!-- copia -->
+
+<div class="container mt-5 mb-5">
+	<h1>CUANDO COMER BIEN ES UN PLACER</h1>
+</div>
+<div class="margen">
+<div class="container rosado ">
+<div class="row ">
+	
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-1 order-sm-1 order-lg-1"><img src="./imagenes/cocinero.jpg" class="img-fluid"alt=""></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-1  order-sm-1 order-lg-1"><h2 class="texto">Nuestra carta</h1 ><p class="texto2">El objetivo de nuestros restaurantes es dar un producto de calidad siempre en cartas variadas, trabajadas y en constante cambio</p></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-3 order-sm-3 order-lg-1"><h2 class="texto">Menu variado</h1 ><p class="texto2">Contamos con una variedad de platos amplia,con platos internacionales y también con platos tipicos de la región</p></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-2 order-sm-2 order-lg-1"><img src="./imagenes/comida3.jpg" class="img-fluid"alt=""></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-3 order-sm-3 order-lg-1"><img src="./imagenes/comida.jpg" class="img-fluid"alt=""></div>
+	<div class="col-12 col-md-6 col-lg-6 p-0 order-3 order-sm-3 order-lg-1"><h2 class="texto">Productos ecologicos</h1 ><p class="texto2">Todos nustros productos tienen el certificado eco, para cuidar nuestra salud,la salud del planeta y la sostenibilidad </p></div>
+
+
+	
+	
+
+</div>
+</div>
+</div>
+
+
+<!-- CARDS!!!!! -->
+
+	<div class="container mt-5 mb-5">
+		<h1>PLATOS ESTRELLA</h1>
+	</div>
+	<div class="container-fluid ">
+		<div class="row align-items-center ">
+			<div class="col-12 col-md-6 col-lg-3 pt-5 mx-auto ">
+							<!-- instagram -->
+			    <div class="card justify-content-center transparente centrar" style="width: 18rem;">
+			    	
+				  <img src="imagenes/plato3.jpg" class=" card-img-top cards crd" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Cataplana</h5>
+				    <!-- <p class="card-text">C/ robles redondo 24, Valencia</p>
+				    <a href="https://www.maps.com" class="btn btn-primary boton">Visítanos</a> -->
+				  </div>
+				</div>
+				
+			</div>
+			<div class="col-12 col-md-6 col-lg-3 pt-5 mx-auto">
+				<!-- facebook -->
+				<div class="card justify-content-center transparente centrar" style="width: 18rem;">
+				  <img src="imagenes/plato4.jpg" class="card-img-top cards crd" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Filete al vapor </h5>
+				    <!-- <p class="card-text">www.facebook.com..</p> -->
+				    <!-- <a href="https://www.facebook.com" class="btn btn-primary boton">Manita arriba</a> -->
+				  </div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-3 pt-5 mx-auto ">
+				<!-- maps -->
+				<div class="card justify-content-center transparente centrar" style="width: 18rem;">
+				  <img src="imagenes/plato5.jpg" class="card-img-top cards crd" alt="...">
+				  <div class="card-body ">
+				    <h5 class="card-title">Pulpo a la gallega</h5>
+				    <p class="card-text "></p>
+				    <!-- <a href="https://www.whatsapp.com" class="btn btn-primary boton">Hablanos</a> -->
+				  </div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!-- formulario -->
+	<div class="container mt-5 mb-5">
+		<h1>HAZ TU RESERVA</h1>
+	</div>
+	<div class="formu">
+		<div class="container">
+		
+		<form class="row">
+			<div class="col-12 ">
+				<label for="inputName4" class="form-label">Nombre</label>
+				<input type="name" class="form-control transparente" id="inputNam4" >
+			</div>
+
+			<div class="col-12 ">
+				<label for="inputEmail4" class="form-label">Fecha reserva</label>
+				<input type="date" class="form-control transparente" id="inputEmail4">
+			</div>
+
+			<div class="col-12 ">
+				<label for="inputEmail4" class="form-label">Hora reserva</label>
+				<input type="time" class="form-control transparente" id="inputEmail4">
+			</div>
+				
+			<div class="col12">
+					<label for="inputEmail4" class="form-label">Algo a tener en cuenta?</label>
+					<textarea class="form-control transparente" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
+
+				<div class="col-12 mt-5 text-center">
+					<button type="submit" class="btn-primary btn boton">Enviar</button>
+				
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="container mt-5 mb-5">
+		<div class="row">
+			<div class="col text-center redes">
+				<a href="https://facebook.com"><i class="fa-brands fa-facebook-f "></i></a>
+				<a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+				
+				
+				
+			</div>
+		</div>
+	</div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
